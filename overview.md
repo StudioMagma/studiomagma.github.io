@@ -56,6 +56,7 @@ Requirements checked against Google's policy: https://support.google.com/googlep
 - Origin fetch and push URL: `https://github.com/studiomagma/studiomagma.github.io.git`.
 - Publish from repository **Settings → Pages → Deploy from a branch → main → / (root)**, then Save.
 - Intended site: `https://studiomagma.github.io/`.
+- Initial push was attempted but failed: HTTPS Git authentication could not obtain a username through `/usr/bin/ksshaskpass`. Authenticate GitHub in the local Git client, then run `git push -u origin main`. The organization remote is configured; uploading the commits and activating Pages remain pending.
 - No site source changes, builds, or tests were needed for this Git configuration task.
 
 Manual setup checklist:
