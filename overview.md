@@ -37,7 +37,7 @@ None. The site uses semantic HTML, native anchors, email links, and CSS media qu
 3. Review source and document deployment and manual acceptance steps.
 
 ## Validation and deployment
-Source and supplied imagery were reviewed. No builds, automated tests, or browser tests were run, per workspace instructions. This folder currently has no usable Git repository or deployment remote; nothing has been published.
+Source and supplied imagery were reviewed. No builds, automated tests, or browser tests were run, per workspace instructions. The local Git repository uses branch `main`. Its `origin` now points to `https://github.com/studiomagma/studiomagma.github.io.git`, replacing the personal-account remote under `iluminismo`. The organization remote was reachable and had no advertised main branch before the initial push. GitHub Pages activation and live publication are not yet verified.
 
 Publish these root files through GitHub Pages. Once `https://studiomagma.github.io` is configured and publicly serving them, the intended privacy URL is `https://studiomagma.github.io/privacy-policy.html`. That URL is not yet verified live. Google Play requires a public policy URL and a policy link or text within the app; publishing this site does not add the in-app link or complete the Play Console Data safety form.
 
@@ -50,3 +50,15 @@ Requirements checked against Google's policy: https://support.google.com/googlep
 - [ ] Confirm Puzzle World is also the name used in the Android app and Play listing; replace the old screenshot when available.
 - [ ] Confirm the policy matches the final shipped game and any SDKs it includes.
 - [ ] After deployment, open the privacy URL without signing in and add it to Play Console and the Android app.
+
+## GitHub organization setup — November 17, 2026
+- Organization: `studiomagma`; repository: `studiomagma.github.io`.
+- Origin fetch and push URL: `https://github.com/studiomagma/studiomagma.github.io.git`.
+- Publish from repository **Settings → Pages → Deploy from a branch → main → / (root)**, then Save.
+- Intended site: `https://studiomagma.github.io/`.
+- No site source changes, builds, or tests were needed for this Git configuration task.
+
+Manual setup checklist:
+- [ ] Confirm the website files appear in the organization repository on `main`.
+- [ ] Enable Pages with `main` and `/ (root)` as the source.
+- [ ] Once GitHub reports deployment complete, open the homepage and `/privacy-policy.html` without signing in.
